@@ -10,7 +10,7 @@ start(_Type, _Args) ->
           #{pop_port => 9554,
             query_port => 9555,
             capabilities => openalex_filter_app:base_capabilities(),
-            pop_peers => [{"localhost", 9100}],
+            pop_peers => [{"localhost", 9101}],
             pop_role => leaf}),
     {ok, Pid}.
 
